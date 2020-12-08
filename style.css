@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+header {
+  background-color: greenyellow;
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
 .btn-gradient-radius{
   display: inline-block;
   padding: 7px 20px;
