@@ -17,6 +17,20 @@ header {
 }
 
 
+.posts{
+  float          : left;
+  box-sizing     : border-box;
+  height         : 24px;
+  margin         : 0;
+  padding        : 6px 10px;
+  border         : none;
+  background     : #007fff;
+  color          : #fff;
+  cursor         : pointer;
+  line-height    : 12px;
+  font-size      : 12px;
+}
+
 
 .searchArea{
   width          : 290px;
