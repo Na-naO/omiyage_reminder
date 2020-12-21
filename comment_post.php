@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./Omiyage_reminder/style.css">
+  <link rel="stylesheet" href="style.css">
   <title>口コミ</title>
 </head>
 
@@ -11,15 +11,17 @@
       <h1 class="headline">
       <a>お土産の備忘録</a>
       </h1>
-      <div class="post">
-        <buton class="posts" type="button">口コミを投稿</button>
-      </div>
-      <div class="searchArea" id="makeImg">
-        <input type="text" id="inText" class="searchText">
-        <div class="searchButton">
-          <span>検索</span>
+      <!-- <div class="upper_menu"> -->
+        <div class="post">
+          <buton class="posts" type="button">口コミを投稿</button>
         </div>
-      </div>
+        <div class="searchArea" id="makeImg">
+          <input type="text" id="inText" class="searchText">
+          <div class="searchButton">
+            <span>検索</span>
+          </div>
+        </div>
+      <!-- </div> -->
     </div>
     <ul class="nav-list">
       <li>エリア</li>
