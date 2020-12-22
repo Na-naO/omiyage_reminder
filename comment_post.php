@@ -44,8 +44,16 @@
       <input type="text" name="email" style="width: 200px">
     </div>
     <div>
+      購入場所<br>
+      <input type="text" name="nickname" style="width:100px">
+    </div>
+    <div>
+      タイトル<br>
+      <input type="text" name="nickname" style="width:100px">
+    </div>
+    <div>
       口コミ<br>
-      <textarea name="content" cols="40" rows="5"></textarea>
+      <textarea name="content" cols="40" rows="7"></textarea>
     </div>
     <input type="submit" value="送信">
   </form>
