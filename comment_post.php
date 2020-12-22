@@ -45,11 +45,28 @@
     </div>
     <div>
       購入場所<br>
-      <input type="text" name="nickname" style="width:100px">
+      <input type="text" name="place" style="width:100px">
     </div>
+    <!-- <div>
+      シチュエーション<br>
+      <input type="text" name="situation" style="width:100px">
+    </div> -->
+    <form method="post" action="check.php">
+      <p>シチュエーション</p>
+      <input type="text" name="situation" list="situation">
+      <datalist id="situation">
+        <option value="出張">出張</option>
+        <option value="帰省">帰省</option>
+        <option value="近所・知り合いへ">近所・知り合いへ</option>
+        <option value="自分用">自分用</option>
+
+      </datalist>
+    </form>
+
+
     <div>
       タイトル<br>
-      <input type="text" name="nickname" style="width:100px">
+      <input type="text" name="title" style="width:100px">
     </div>
     <div>
       口コミ<br>
