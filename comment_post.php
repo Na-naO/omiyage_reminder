@@ -51,7 +51,7 @@
       シチュエーション<br>
       <input type="text" name="situation" style="width:100px">
     </div> -->
-    <form method="post" action="check.php">
+    <!-- <form method="post" action="check.php"> -->
       <p>シチュエーション</p>
       <input type="text" name="situation" list="situation">
       <datalist id="situation">
@@ -61,7 +61,7 @@
         <option value="自分用">自分用</option>
 
       </datalist>
-    </form>
+    <!-- </form> -->
 
 
     <div>
