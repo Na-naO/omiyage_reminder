@@ -13,8 +13,30 @@
     $nickname_result = $nickname. '様';
   }
 
+  if($email == ''){
+    $email_result = 'メールアドレスが入力されていません。';
+  } else {
+    $email_result = 'メールアドレス：'. $email;
+  }
 
+  if($place == ''){
+    $place_result = '購入場所が入力されていません。';
+  } else {
+    $place_result = '購入場所：' . $place;
+  }
 
+  if ($situation ==''){
+    $situation_result = 'シチュエーションが入力されていません。';
+  } else {
+    $situation_result = 'シチュエーション：' . $situation;
+  }
+
+  if($title ==''){
+    $title_result = 'タイトルが入力されていません。';
+  } else {
+    $title_result = 'タイトル：' . $title;
+  }
+  
 
   ?>
 
