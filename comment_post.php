@@ -63,7 +63,6 @@
       </datalist>
     <!-- </form> -->
 
-
     <div>
       タイトル<br>
       <input type="text" name="title" style="width:100px">

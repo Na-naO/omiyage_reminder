@@ -36,6 +36,12 @@
   } else {
     $title_result = 'タイトル：' . $title;
   }
+
+  if($title ==''){
+    $content_result = '口コミが入力されていません。';
+  } else {
+    $content_result = '口コミ：' . $title;
+  }
   
 
   ?>
@@ -51,6 +57,11 @@
 <body>
   <h1>入力内容確認</h1>
   <p><?php echo $nickname_result; ?></p>
+  <p><?php echo $email_result; ?></p>
+  <p><?php echo $place_result; ?></p>
+  <p><?php echo $situation_result; ?></p>
+  <p><?php echo $title_result; ?></p>
+  <p><?php echo $content_result; ?></p>
 
 
 </body>
