@@ -64,5 +64,10 @@
   <p><?php echo $content_result; ?></p>
 
 
+<input type="button" value="戻る" onclick="history.back()">
+
+
+
+
 </body>
 </html>
