@@ -64,8 +64,10 @@
   <p><?php echo $content_result; ?></p>
 
 
-<input type="button" value="戻る" onclick="history.back()">
-
+  <input type="button" value="戻る" onclick="history.back()">
+  <?php if($nickname != '' && $email != '' && $place != '' && $situation != '' && $title != '' && $content != ''): ?>
+    <input type="submit" value="OK">
+  <?php endif; ?>
 
 
 
