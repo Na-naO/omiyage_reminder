@@ -63,13 +63,20 @@
   <p><?php echo $title_result; ?></p>
   <p><?php echo $content_result; ?></p>
 
+  <form method="POST" action="thanks.php">
+    <input type="hidden" name="nickname" value="<?php echo $nickname; ?>">
+    <input type="hidden" name="email" value="<?php echo $email; ?>">
+    <input type="hidden" name="place" value="<?php echo $place; ?>">
+    <input type="hidden" name="situation" value="<?php echo $situation; ?>">
+    <input type="hidden" name="title" value="<?php echo $title; ?>">
+    <input type="hidden" name="content" value="<?php echo $content; ?>">
 
-  <input type="button" value="戻る" onclick="history.back()">
-  <?php if($nickname != '' && $email != '' && $place != '' && $situation != '' && $title != '' && $content != ''): ?>
-    <input type="submit" value="OK">
-  <?php endif; ?>
+    <input type="button" value="戻る" onclick="history.back()">
+    <?php if($nickname != '' && $email != '' && $place != '' && $situation != '' && $title != '' && $content != ''): ?>
+      <input type="submit" value="OK">
+    <?php endif; ?>
 
-
+  </form>
 
 </body>
 </html>
