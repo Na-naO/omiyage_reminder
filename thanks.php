@@ -8,10 +8,16 @@
   $content = htmlspecialchars($_POST['content']);
 
 
-  $dns = 'mysql:dbname=Omiyage_reminder;host=localhost';
+  $dsn = 'mysql:dbname=Omiyage_reminder;host=localhost';
   $user = 'root';
-  $password ='';
+  $password = '';
   $dbh = new PDO($dsn, $user, $password);
   $dbh->query('SET NAMES utf8');
 
 
+$sql = 'INSERT INTO `posts`(`nickname`, `email`, `place`, `situation`, `title`, `content`) VALUES ("'.$nickname.'", "'.$email.'", "'.$place.'", "'.$situation.'", "'.$title.'", "'.$content.'")';
+$stmt = $dbh->prepare($sql);
+$stmt->execute();
+$dbh = null;
+
+?>
