@@ -21,3 +21,20 @@ $stmt->execute();
 $dbh = null;
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>送信完了</title>
+</head>
+<body>
+  <h1>投稿をありがとうございました！</h1>
+  <p>ニックネーム：<?php echo $nickname; ?></p>
+  <p>メールアドレス：<?php echo $email; ?></p>
+  <p>購入場所：<?php echo $place; ?></p>
+  <p>シチュエーション：<?php echo $situation; ?></p>
+  <p>タイトル：<? echo $title; ?></p>
+  <p>口コミ：<? echo $content; ?></p>
+</body>
+</html>
