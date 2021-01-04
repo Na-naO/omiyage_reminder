@@ -52,9 +52,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>入力内容確認</title>
 </head>
 <body>
+  <header>
+    <div class="top">
+      <h1 class="headline">
+      <a>お土産の備忘録</a>
+      </h1>
+      <div class="post">
+        <buton class="posts" type="button">口コミを投稿</button>
+      </div>
+      <div class="searchArea" id="makeImg">
+        <input type="text" id="inText" class="searchText">
+        <div class="searchButton">
+          <span>検索</span>
+        </div>
+      </div>
+    </div>
+    <ul class="nav-list">
+      <li>エリア</li>
+      <li>ランキング</li>
+      <li>シーン別</li>
+    </ul>
+  </header>
+
   <h1>入力内容確認</h1>
   <p><?php echo $nickname_result; ?></p>
   <p><?php echo $email_result; ?></p>
