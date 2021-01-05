@@ -15,7 +15,7 @@
       <a>お土産の備忘録</a>
       </h1>
       <div class="post">
-        <buton class="posts" type="button">口コミを投稿</button>
+        <buton onclick="location.href='./comment_post.php'" class="posts" type="button">口コミを投稿</button>
       </div>
       <div class="searchArea" id="makeImg">
         <input type="text" id="inText" class="searchText">
