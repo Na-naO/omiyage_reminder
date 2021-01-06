@@ -72,7 +72,9 @@
   </main>
 
   <footer>
-    <div class="other_items"></div>
+    <div class="other_items">
+     <p>問い合わせ</p>
+    </div>
   </footer>
 
 

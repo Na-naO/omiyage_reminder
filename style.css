@@ -111,3 +111,12 @@ header {
 span{
   display: flex;
 }
+
+
+.other_items {
+  background-color: greenyellow;
+  width: 100%;
+  padding: 15px 0;
+  margin: auto;
+  text-align: center;
+}
