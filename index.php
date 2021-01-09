@@ -71,6 +71,9 @@
     <div class="location"></div>
   </main>
 
+
+  <textarea name="explanation" cols="100" rows="10"></textarea>
+
   <footer>
     <div class="other_items">
      <p>問い合わせ</p>
