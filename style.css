@@ -108,11 +108,13 @@ header {
 }
 
 
-span{
-  display: flex;
+div.button, div.review{
   margin: 50px 0;
 }
 
+span{
+  display: flex;
+}
 
 .other_items {
   background-color: greenyellow;
