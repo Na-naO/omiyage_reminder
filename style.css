@@ -4,7 +4,7 @@
 }
 
 header {
-  background-color: greenyellow;
+  background-color: white;
   width: 100%;
   padding: 15px 0;
   margin: 0 auto;
@@ -12,6 +12,7 @@ header {
 }
 
 .top{
+  padding: 15px;
   display: flex;
   justify-content: space-between;
 }
@@ -102,6 +103,10 @@ header {
 
 
 .nav-list{
+  background-color: tomato;
+  font-size: 20px;
+  padding: 20px;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -117,7 +122,7 @@ span{
 }
 
 .other_items {
-  background-color: greenyellow;
+  background-color: yellowgreen;
   width: 100%;
   padding: 15px 0;
   margin: auto;
