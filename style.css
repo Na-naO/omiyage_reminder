@@ -21,9 +21,10 @@ header {
 .posts{
   float          : left;
   box-sizing     : border-box;
-  height         : 24px;
-  margin         : 0;
-  padding        : 6px 10px;
+  width: 100px;
+  height         : 50px;
+  margin         : auto;
+  padding        : 20px 10px;
   border         : none;
   background     : #007fff;
   color          : #fff;
@@ -47,10 +48,10 @@ header {
   display        : block;
   float          : left;
   box-sizing     : border-box;
-  height         : 24px;
+  height         : 40px;
+  margin         : auto;
+  padding        : 10px 10px;
   width          : 170px;
-  margin         : 0;
-  padding        : 0 12px;
   border         : 2px solid #007fff;
   border-radius  : 12px 0 0 12px;
   color          : #333;
@@ -61,9 +62,12 @@ header {
 .searchArea .searchButton {
   float          : left;
   box-sizing     : border-box;
-  height         : 24px;
+  height         : 40px;
+  margin         : auto;
+  padding        : 15px 10px;
+/* 
   margin         : 0;
-  padding        : 6px 10px;
+  padding        : 6px 10px; */
   border         : none;
   border-radius  : 0 12px 12px 0;
   background     : #007fff;
