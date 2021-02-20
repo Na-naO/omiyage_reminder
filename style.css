@@ -132,3 +132,8 @@ span{
   margin: auto;
   text-align: center;
 }
+
+.submit_button{
+  padding: 10px 20px;
+  font-size: 1.0em;
+}
