@@ -29,48 +29,49 @@
       <li>シーン別</li>
     </ul>
   </header>
+  <div class="comment">
+    <h1>口コミを投稿</h1>
+    <!-- form method="POST"👈入力する -->
+    <form method="POST" action="check.php">
+      <!-- <span style="color: red;">こんにちは</span> -->
+      <div>
+        ニックネーム
+        <input type="text" name="nickname" style="width:100px">
+      </div>
+      <div>
+        メールアドレス
+        <input type="text" name="email" style="width: 200px">
+      </div>
+      <div>
+        購入場所
+        <input type="text" name="place" style="width:100px">
+      </div>
+      <!-- <div>
+        シチュエーション<br>
+        <input type="text" name="situation" style="width:100px">
+      </div> -->
+      <!-- <form method="post" action="check.php"> -->
+        <p>シチュエーション</p>
+        <input type="text" name="situation" list="situation">
+        <datalist id="situation">
+          <option value="出張">出張</option>
+          <option value="帰省">帰省</option>
+          <option value="近所・知り合いへ">近所・知り合いへ</option>
+          <option value="自分用">自分用</option>
 
-  <h1>口コミを投稿</h1>
-  <!-- form method="POST"👈入力する -->
-  <form method="POST" action="check.php">
-    <!-- <span style="color: red;">こんにちは</span> -->
-    <div>
-      ニックネーム<br>
-      <input type="text" name="nickname" style="width:100px">
-    </div>
-    <div>
-      メールアドレス<br>
-      <input type="text" name="email" style="width: 200px">
-    </div>
-    <div>
-      購入場所<br>
-      <input type="text" name="place" style="width:100px">
-    </div>
-    <!-- <div>
-      シチュエーション<br>
-      <input type="text" name="situation" style="width:100px">
-    </div> -->
-    <!-- <form method="post" action="check.php"> -->
-      <p>シチュエーション</p>
-      <input type="text" name="situation" list="situation">
-      <datalist id="situation">
-        <option value="出張">出張</option>
-        <option value="帰省">帰省</option>
-        <option value="近所・知り合いへ">近所・知り合いへ</option>
-        <option value="自分用">自分用</option>
+        </datalist>
+      <!-- </form> -->
 
-      </datalist>
-    <!-- </form> -->
-
-    <div>
-      タイトル<br>
-      <input type="text" name="title" style="width:100px">
-    </div>
-    <div>
-      口コミ<br>
-      <textarea name="content" cols="40" rows="7"></textarea>
-    </div>
-    <input class="submit_button" type="submit" value="送信">
-  </form>
+      <div>
+        タイトル
+        <input type="text" name="title" style="width:100px">
+      </div>
+      <div>
+        口コミ
+        <textarea name="content" cols="40" rows="7"></textarea>
+      </div>
+      <input class="submit_button" type="submit" value="送信">
+    </form>
+  </div>
 </body>
 </html>
