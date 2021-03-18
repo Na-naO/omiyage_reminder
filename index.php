@@ -72,7 +72,8 @@
   </main>
 
 
-  <textarea name="explanation" cols="100" rows="10"></textarea>
+  <textarea name="explanation" cols="150" rows="20"></textarea>
+
 
   <footer>
     <div class="other_items">
