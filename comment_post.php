@@ -51,15 +51,15 @@
         <input type="text" name="situation" style="width:100px">
       </div> -->
       <!-- <form method="post" action="check.php"> -->
-        <p>シチュエーション</p>
+        <div>シチュエーション
         <input type="text" name="situation" list="situation">
         <datalist id="situation">
           <option value="出張">出張</option>
           <option value="帰省">帰省</option>
           <option value="近所・知り合いへ">近所・知り合いへ</option>
           <option value="自分用">自分用</option>
-
         </datalist>
+        </div>
       <!-- </form> -->
 
       <div>

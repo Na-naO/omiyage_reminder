@@ -66,13 +66,16 @@
       <div class="review">
         <a href="" class="btn-gradient-radius">レビューを見る</a>
       </div>
+      <div class="review">
+        <a href="" class="btn-gradient-radius">このエリアのお土産をもっと見る</a>
+      </div>
     </span>
     
     <div class="location"></div>
   </main>
 
 
-  <textarea name="explanation" cols="150" rows="20"></textarea>
+  <textarea name="explanation" cols="150" rows="20">最近の口コミ</textarea>
 
 
   <footer>
