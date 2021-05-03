@@ -79,8 +79,15 @@
 
 
   <footer>
-    <div class="other_items">
-     <p>問い合わせ</p>
+    <div class="footer-wrapper">
+      <div class="btn-wrapper">
+        <a href="#">問い合わせ</a><br>
+        <a href="#" class="btn signup">新規登録はこちら</a>
+        <p>or sign up with</p>
+        <a href="#" class="btn google">Googleで登録</a>
+        <a href="#" class="btn twitter">Twitterで登録</a>
+        <a href="#" class="btn facebook">facebookで登録</a>
+      </div>
     </div>
   </footer>
 

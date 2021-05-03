@@ -125,29 +125,65 @@ span{
   display: flex;
 }
 
-.other_items {
-  background-color: yellowgreen;
-  width: 100%;
-  padding: 15px 0;
-  margin: auto;
-  text-align: center;
-}
 
 .submit_button{
   padding: 10px 20px;
   font-size: 1.0em;
 }
 
+.footer-wrapper {
+  background-color: #E7D3E2;
+  width: 100%;
+  padding: 15px 0;
+  margin: auto;
+  text-align: center;
+}
+
+
 /* .comment{
   text-align: center;
   
 } */
 
+.btn-wrapper{
+  margin: 20px 0;
+}
+
+.btn-wrapper p{
+  margin: 10px;
+}
+
+
+.btn{
+  padding: 8px 25px;
+  margin-right: 10px;
+  color: white;
+  opacity:0.8;
+  display: inline-block;
+}
+
+
+.signup{
+  background-color: #239b76;
+}
+
+.google{
+  background-color: #F7BC33;
+}
+
+.twitter{
+  background-color: #55acee;
+}
+
+.facebook{
+  background-color: #3b5998;
+}
 
 
 
 
-footer{
+
+/* footer{
   color: white;
   margin-top: 10px;
-}
+} */
